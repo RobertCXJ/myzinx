@@ -28,14 +28,14 @@ var GlobalObject *GlobalObj
 func init() {
 	GlobalObject = &GlobalObj{
 		Name:           "ZinxServerApp",
-		Version:        "V0.4",
+		Version:        "V0.5",
 		TcpPort:        8999,
 		Host:           "0.0.0.0",
 		MaxConn:        1000,
 		MaxPackageSize: 4096,
 	}
 	// 尝试从 conf/zinx.json 去加载用户自定义的参数
-	GlobalObject.Reload()
+	//GlobalObject.Reload()
 }
 
 // Reload 从 zinx.json 加载自定义的参数
