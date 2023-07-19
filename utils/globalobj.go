@@ -37,7 +37,7 @@ func init() {
 		Version:          "V0.8",
 		TcpPort:          8999,
 		Host:             "0.0.0.0",
-		MaxConn:          20000,
+		MaxConn:          200000,
 		MaxPackageSize:   4096,
 		WorkerPoolSize:   10,   // worker 工作池的队列的个数
 		MaxWorkerTaskLen: 1024, // 每个worker对应的消息队列的任务的最大值
